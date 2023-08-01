@@ -1,0 +1,58 @@
+header {
+  /* height: 100vh; */
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 97%;
+  top: 0;
+  padding: 10px 20px;
+  z-index: 100;
+  background: #303e57;
+  border-radius: 0 0px 10px 10px;
+}
+
+nav.scrolled {
+  background: var(--dark-color);
+  box-shadow: 0 16px 14px -8px rgba(0, 0, 0, 0.3);
+  border-radius: 0 0 16px 16px;
+  top: 0;
+  transition: all 500ms ease;
+}
+
+nav .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: #ffffff;
+  padding-left: 90px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  list-style: none;
+  margin: 0;
+}
+
+nav ul li a {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  nav {
+    width: 980px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+}

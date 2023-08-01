@@ -1,0 +1,45 @@
+.app-section {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.app-section h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  color: var(--dark-blue-color);
+}
+
+.app-section p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--dark-blue-color);
+  text-align: center;
+}
+
+.app-section .app-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 24px;
+}
+
+.app-section .app-btn {
+  padding: 16px 20px;
+  background: #000;
+  border-radius: 10px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 310px;
+}
+
+.app-section .app-btn span {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #ffffff;
+}
